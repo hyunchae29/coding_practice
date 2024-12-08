@@ -2,13 +2,13 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int n = scanner.nextInt();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
         HashSet<String> set = new HashSet<>();
 
         for (int i = 0; i < n; i++) {
-            String name = scanner.next();
-            String act = scanner.next();
+            String name = sc.next();
+            String act = sc.next();
             if (act.equals("enter")) {
                 set.add(name);
             } else {
